@@ -280,7 +280,6 @@ color: #404bbf;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    padding: 0 156px;
     justify-content: center;
     row-gap: 48px;
 }
@@ -312,8 +311,8 @@ color: #404bbf;
     color: #434455;
 }
 
-#port-block, .portfolio-block {
-    width: calc((100%-48px)/3);
+.portfolio-block {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-text-block {
