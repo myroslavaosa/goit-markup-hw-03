@@ -311,20 +311,15 @@ color: #404bbf;
     color: #434455;
 }
 
+.portfolio-block {
+    width: calc((100% - 48px) / 3);
+}
+
 .portfolio-text-block {
     border: 1px solid #E7E9FC;
     border-top: none;
     padding: 32px 16px;
-}
-
-.portfolio > .portfolio-list > .portfolio-block {
-    width: calc((100% - 48px) / 3);
-}
-
-.footer .container {
-    display: flex;
-    flex-direction: column;
-}
+} 
 
 .footer {
     background-color: #2E2F42;
@@ -332,6 +327,7 @@ color: #404bbf;
     }
 
 .footer-logo {
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -352,9 +348,4 @@ color: #404bbf;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     max-width: 264px
-}
-
-.footer .footer-logo,
-.footer a {
-    display: inline-block;
 }
