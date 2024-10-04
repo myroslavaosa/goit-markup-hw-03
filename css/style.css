@@ -27,14 +27,17 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    padding: 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+}
+
 header > .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
-    width: 1158px;
-    margin: 0 auto;
 }
 
 .page-header {
@@ -173,17 +176,19 @@ color: #404bbf;
 }
 
 .second-section .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 15px;
-        width: 1158px;
-        margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .priorities-title {
     margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .second-section-list {
@@ -212,12 +217,6 @@ color: #404bbf;
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
-}
-
-.team .container {
-    padding: 0 15px;
-    width: 1158px;
-    margin: 0 auto;
 }
 
 .third-section-title {
@@ -300,7 +299,6 @@ color: #404bbf;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
